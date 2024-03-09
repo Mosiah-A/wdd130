@@ -21,7 +21,7 @@ main img{
 p{
     padding: 0;
 }
-footer,header{
+footer{
     margin-top: 15px;
     border-bottom: 1px solid #000;
     text-align: center;
