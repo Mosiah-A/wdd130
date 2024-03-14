@@ -1,11 +1,32 @@
-/*Class Selector*/
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+nav{
+    padding: 0;
+    background-color: rgb(58, 102, 224);
+    display: inline;
+    display: flex;
+    font-size: 15px;
+    align-items: center;
+}
 
+nav a{
+    padding: 0;
+    display: block;
+    color: antiquewhite;
+    text-decoration: none;
+    padding: 1.0rem;
+}
+
+nav a:hover {
+    color: rgb(58, 102, 224);
+    background-color: rgb(2, 1, 44);
+    padding:1.0rem
+}
 
 main {
     max-width: 800px;    
@@ -41,38 +62,18 @@ main img{
 p{
     padding: 0;
 }
+
+h1{
+    padding: 1rem;
+}
+
 footer{
     margin-top: 15px;
     border-bottom: 1px solid #000;
     text-align: center;
-
-}
-h1{
-    padding: 1rem;
-}
-nav{
-    padding: 0;
-    background-color: rgb(58, 102, 224);
-    display: inline;
-    display: flex;
-    font-size: 15px;
-    align-items: center;
-}
-nav a{
-    padding: 0;
-    display: block;
-    color: antiquewhite;
-    text-decoration: none;
-    padding: 1.0rem;
 }
 
-nav a:hover {
-    color: rgb(58, 102, 224);
-    background-color: rgb(2, 1, 44);
-    padding:1.0rem
-}
-
-/* Class box Selectors*/
+/* Class Selector */
 .box{
     margin: 1rem;
     width: 20em;
