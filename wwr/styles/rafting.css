@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body{
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 25px;
+}
+:root {
+    --primary-color: #006D77;
+    --secondary-color: #83C5BE;
+    --tertiary-color: #EDF6F9;
+
+    --heading-font: 'Poppins', serfi;
+    --paragraph-font: 'Poppins', serif;
+
+    --nav-background-color: #bae6f5;
+    --nav-link-color: rgb(2, 29, 2);
+    --nav-hover-link-color: rgb(244, 248, 244);
+    --nav-hover-background-color: rgb(2, 35, 2);
+}
+nav{
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+nav a{
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+header{
+    padding: 20px;
+    background-color: var(--tertiary-color);
+}
+header img{
+    float: left;
+}
+p{
+    padding: 25px;
+}
+
+section p{
+    padding: 0;
+    font-size: 15px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.hero{
+    position: relative;
+}
+.hero img{
+    display: block;
+    width: 100%;
+    height: auto;
+    
+}
+.hero h1{
+    position: absolute;
+    top: 7px;
+    right: 02px;
+    color: #f7f9f9;
+    font-size: 40px;
+    background-color: #0000005a;
+    padding-left: 345px;
+    padding-right: 325px;
+    margin-left: 0;
+    text-align: center;
+}
+
+.hero article{
+    background-color: #006d779c;
+    position: absolute;
+    top: 150px;
+    margin: 70px;
+}
+.hero article img{ 
+    float: right;   
+    width: 150px;
+}
+.hero p{
+    display: flex;
+    padding-top: 50px;
+    color: azure;
+}
+
