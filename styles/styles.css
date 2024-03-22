@@ -38,7 +38,7 @@ aside img{
 aside h2{
     position: absolute;
     top: 40px;
-    left: 40px;
+    left: 38px;
     background-color: #000000ab;
     color: white;
     padding: 1rem;
@@ -80,7 +80,7 @@ footer{
 }
 
 /*grid and flex*/
-header, .grid footer{
+header, .grid, footer{
     max-width: 840px;
     margin:auto;
 }
