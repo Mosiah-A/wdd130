@@ -92,13 +92,13 @@ section p{
     text-align: center;
 }
 
-.hero article{
+.hero div{
     background-color: #006d779c;
     position: absolute;
     top: 150px;
     margin: 70px;
 }
-.hero article img{ 
+.hero div img{ 
     float: right;   
     width: 150px;
 }
@@ -138,7 +138,7 @@ section p{
 .adventure{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat( 1fr 2fr 1fr);
+    grid-template-rows:  1fr 2fr 1fr;
     gap: 5px;
     width: 100px;
     height: 100%;
@@ -164,7 +164,7 @@ section p{
     align-items: center;
     max-width: 220px;
 }
-.adventure figcaption {
+.adventure figure figcaption {
     background-color: #222;
     color: #fff;
     font: italic smaller sans-serif;
@@ -176,19 +176,21 @@ section p{
     padding-left: 32px;
     padding-right: 32px;
 
-  }
+}
 
-  footer{
+footer{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     width: auto;
     align-items: center;
 
-  }
-  footer p{
+}
+
+footer p{
     grid-column: 1/3;
-  }
-  footer a{
+}
+
+footer a{
     grid-column: 3/3;
     padding-left: 20px;
-  }
+}
