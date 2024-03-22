@@ -17,7 +17,7 @@ nav{
 nav a{
     padding: 0.5rem;
     display: block;
-    color: antiquewhite;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     padding: 1.0rem;
 }
