@@ -81,7 +81,7 @@ footer{
 }
 
 /*grid and flex*/
-header, .grid, footer{
+header, footer, .grid{
     max-width: 840px;
     margin:auto;
 }
