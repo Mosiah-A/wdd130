@@ -6,16 +6,16 @@
 }
 
 nav{
-    padding: 0;
     background-color: rgb(58, 102, 224);
     display: inline;
     display: flex;
     font-size: 15px;
+    justify-content: space-evenly;
     align-items: center;
 }
 
 nav a{
-    padding: 0;
+    padding: 0.5rem;
     display: block;
     color: antiquewhite;
     text-decoration: none;
@@ -28,20 +28,7 @@ nav a:hover {
     padding:1.0rem
 }
 
-main {
-    max-width: 800px;    
-    padding-left: 15px;
-}
-aside{
-    width: 20em;
-    margin: 1rem;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    padding: 1rem;
-    background-color: #eee;
-    color: #333;
-    text-align: center;
-    position: relative;
-}
+
 aside img{
     width: 250px;
     height: auto;
@@ -50,8 +37,13 @@ aside img{
 
 aside h2{
     position: absolute;
-    top: 0px;
-    left: 100px;
+    top: 40px;
+    left: 40px;
+    background-color: #000000ab;
+    color: white;
+    padding: 1rem;
+    padding-left: 3.5rem;
+    padding-right: 3.5rem ;
 }
 main img{
     width: 150px;
@@ -65,24 +57,47 @@ p{
 
 h1{
     padding: 1rem;
+    border-bottom: 1px solid rgb(58, 102, 224) ;
 }
 
 footer{
     margin-top: 15px;
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid  black;
     text-align: center;
 }
 
 /* Class Selector */
 .box{
     margin: 1rem;
-    width: 20em;
     border: 1px solid rgb(0, 0, 0, .1);
-    padding: 1rem;
+    padding: 0.5rem;
     background-color: #ddd;
     color: #000;
 }
 
 .indent{
     padding-left: 2rem;
+}
+
+/*grid and flex*/
+header, .grid footer{
+    max-width: 840px;
+    margin:auto;
+}
+
+.grid{
+    display: grid;
+    align-items: center;
+}
+main{
+    grid-column: 2/3;
+    margin-right:  85px;
+    
+}
+aside{
+    width: 20rem;
+    position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    text-align: center;
 }
