@@ -52,13 +52,13 @@
                      <p>rafting@email.com</p>
                 </div>
                 <div class=" icons ">
-                    <a href=""><img src="images/facebook-icon.png" alt=""></a>
-                    <a href=""><img src="images/linkedin-icon.png" alt=""></a>
+                    <a href=""><img src="images/facebook-icon.png" alt="Facebook Icon"></a>
+                    <a href=""><img src="images/linkedin-icon.png" alt="linkedin Icon"></a>
                 </div>
             </div>
             
             <div class="google-maps">
-                <img src="images/maps.png" alt="">
+                <img src="images/maps.png" alt="google maps photo">
             </div>
         </div>
         
@@ -66,23 +66,28 @@
             <h2 class="title">Our Team</h2>
             <div class="grid">
                 <div class="profile p1">
-                    <img src="images/employees/Mika-profile.jpg" alt="MIka-profile">
-                    <caption>Mika - Marketing</caption>
+                    <figure>
+                        <img src="images/employees/Mika-profile.jpg" alt="MIka-profile">
+                        <figcaption>Mika - Marketing</figcaption>
+                    </figure>
                 </div>
                 <div class="profile p2">
-                    <img src="images/employees/Andrey-profile.jpg" alt="Andrey-profile">
-                    <caption>Andrey - CEO</caption>
+                    <figure>
+                        <img src="images/employees/Andrey-profile.jpg" alt="Andrey-profile">
+                        <figcaption>Andrey - CEO</figcaption>
+                    </figure>
                 </div>
                 <div class="profile p3">
-                    <img src="images/employees/Nathan-profile.jpg" alt="Nathan-profile">
-                    <caption>Nathan - Guide</caption>
-            
+                    <figure>
+                        <img src="images/employees/Nathan-profile.jpg" alt="Nathan-profile">
+                        <figcaption>Nathan - Guide</figcaption>
+                    </figure>
                 </div>
             </div>
         </div>
         <div class="form">
             <form>
-                <fieldset>
+                <fieldset class="fieldsetall">
                     
                     <h3 class="form-title">Send Us a message</h3>
                     <div class="user">
@@ -95,26 +100,33 @@
                         <input type="email" name="email" id="email">
                     </div>
                     
+                    <fieldset id="purpose">
+                        <legend>Select Purpose:</legend>
+                        <div>
+                            <input type="radio" name="purpose" id="purpose1" value="General Inquiry">
+                            <label for="purpose1">General Inquiry</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="purpose" id="purpose2" value="Reservation Question">
+                            <label for="purpose2">Reservation Question</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="purpose" id="purpose3" value="Website Suggestion">
+                            <label for="purpose3">Website Suggestion</label>
+                        </div>
+                    </fieldset>
+                    
+                    
+                    <fieldset id="message">
+                        <textarea name="message" id="message1" rows="10"></textarea>
+                        <label for="message1">Message:</label>
+                    </fieldset>
+                    
+                    <fieldset id="subscribe">
+                        <label for="subscribe1">Please subscribe me to the monthly newsletter.</label>
+                        <input type="checkbox" name="subscribe" id="subscribe1" value="Subscribe">
 
-                    <p>Purpose of E-mail</p>
-                    <div id="purpose">
-                        <input type="radio" name="purpose" id="purpose" value="General Inquiry">
-                        <label for="purpose">General Inquiry</label>
-                        <input type="radio" name="purpose" id="purpose" value="Reservation Question">
-                        <label for="purpose">Reservation Question</label>
-                        <input type="radio" name="purpose" id="purpose" value="Website Suggestion">
-                        <label for="purpose">Website Suggestion</label>
-                    </div>
-                    
-                    <div id="message">
-                        <label for="message">Message:</label>
-                        <textarea name="message" id="message" rows="10"></textarea>    
-                    </div>
-                    
-                    <div id="subscribe">
-                        <input type="checkbox" name="subscribe" id="subscribe" value="Subscribe">
-                        <label for="subscribe">Please subscribe me to the monthly newsletter.</label>    
-                    </div>
+                    </fieldset>
                     
                     <button type="submit">Send</button>
                 </fieldset>
@@ -125,7 +137,7 @@
     <footer>
         
         <p>&copy; 2024 Mosiah Andrade | WDD 130 <a href="https://app.moqups.com/6kgLKkkt3ISzmzOU8jWT6uFuQqbyzMHk/view/page/ad12de680" target="_blank" rel="Wareframe"> 
-            Wareframe - Template</a></p></p>
+            Wareframe - Template</a></p>
         
         <div>
             <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook-icon.png" alt="facebook icon"></a>

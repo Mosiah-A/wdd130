@@ -170,7 +170,6 @@ header img {
     font-size: .8rem;
 }
 .company h2{
-    padding-top: auto;
     text-align: center;
     font-size: 20px;
 
@@ -227,7 +226,6 @@ header img {
     padding-top: 100px;
 }
 .employees{
-    padding: 25px;
     text-align: center;
     font-size: 50px;
 }
@@ -237,7 +235,6 @@ header img {
 .grid{
     display: flex;
     flex-direction: row;
-    gap: 20px;
     justify-content: center;
     align-items: center;
     
@@ -256,6 +253,7 @@ header img {
     font-size: 22px;
     padding-bottom: 35px;
     color: #bae6f5;
+    margin-left: -15px;
 }
 
 .p2 img{
@@ -271,13 +269,14 @@ header img {
     padding: 1rem;
 }
 
-fieldset{
+.fieldsetall{
     display: grid;
     grid-gap: .5rem;
     border: none;
     grid-template-columns: 1fr 1fr;
     padding-bottom: 105px;
 }
+
 div{
     display: grid;
 }
@@ -310,7 +309,7 @@ label[for="purpose"]{
 .email-contact label{
     margin-right: 130px;
 }
-fieldset p{
+.fieldsetall p{
     grid-column: 1/3;
     grid-row: 3;
 }
@@ -318,19 +317,32 @@ fieldset p{
     grid-column: 1/3;
     grid-row: 4;
     display: flex;
+    flex-direction: column;
+    margin-top: -10px;
+    border: none;
+}
+#purpose div{
+    margin-left: 25px;
+    display: flex;
     flex-direction: row;
 }
 #message{
     grid-row: 5;
     grid-column: 1/3;
+    border: none;
+    display: flex;
+    flex-direction: column-reverse;
+}
+#message textarea{
+    width: 100%;
 }
 #subscribe{
     grid-row: 6;
     grid-column: 1/3;
+    justify-content: start;
+    border: none;
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin-right: 10px;
+    flex-direction: row-reverse
 }
 button{
     grid-row: 7;
